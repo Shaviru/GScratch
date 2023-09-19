@@ -1,0 +1,60 @@
+.topnav {
+  overflow: hidden;
+  text-align: center;
+  display: flex; /* Added to align items in center */
+  justify-content: center; /* Added to horizontally center items */
+}
+
+.topnav h1 {
+  margin: 0;
+  padding: 10px;
+  color: white;
+  flex: 1; /* Distributes remaining space evenly */
+}
+
+.topnav a {
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+  padding: 14px 45px; 
+}
+
+.topnav a:hover {background-color: #f0f0f0;}
+
+nav {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+nav a {
+  display: inline-block;
+  padding: 14px 16px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+h1{
+  font-size: 50px;
+  text-align: center;
+}
+h2{font-size: 30px;}
+p{font-size: 20px;}
+hr{height: 2px;background-color: black;}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  text-align: center;
+}
+
+header {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.chose {
+  padding-top: 20px;
+}
